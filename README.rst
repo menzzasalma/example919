@@ -20,6 +20,9 @@ travisproj
 
 
 
+.. image:: https://coveralls.io/repos/github/menzzasalma/example919/badge.svg?branch=master
+        :target: https://coveralls.io/github/menzzasalma/example919?branch=master
+
 travis
 
 
