@@ -36,3 +36,8 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
+
+def test_addinator(response):
+    result=travisproj.addinator(2,3,0)
+    assert result == 5
+    assert travisproj.x == 6
